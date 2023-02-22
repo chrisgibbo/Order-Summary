@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* font "red hat display" 
+weights 500, 700, 900 */
+
+/* Paragrph font size = 16px */
+
+/* mobile@375px */
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: var(--pale-blue);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.main-text-area {
+    margin: 20px;
+}
+
+.title {}
