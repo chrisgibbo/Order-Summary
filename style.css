@@ -38,8 +38,7 @@ body {
     height: 630px;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 1px 8px 10px -10px;
-
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .image {
@@ -106,16 +105,28 @@ body {
     width: 89%;
     margin-top: 15px;
     box-shadow: 1px 8px 20px -10px black;
-
-
 }
 
-.cancel-order {
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#cancel-order-btn {
     font-size: 14px;
     font-weight: 700;
     color: var(--desaturated-blue);
-    padding: 10px;
+    margin-top: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
+
+#cancel-order-btn::hover {
+    color: white;
+}
+
+
 
 .footer {
     text-align: center;
